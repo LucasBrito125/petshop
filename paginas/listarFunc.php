@@ -88,7 +88,8 @@
             require ("conexao.php");
            	$conexao = new mysqli("us-cdbr-east-03.cleardb.net", "b93ac2ca02a47f", "4428a355", "heroku_bd928228b7e37d8");
             $query = "SELECT * FROM funcionario order by idFuncionario";
-            $resulta = $conexao->query($query);
+            //$resulta = $conexao->query($query);
+            mysqli_query($conexao,$query) or die("Erro ao listar funcionários");
 			if ($resulta->num_rows > 0){
 
                 while ( $row = $resulta->fetch_assoc()){            
