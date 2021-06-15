@@ -95,7 +95,8 @@
                     while($especie = mysqli_fetch_assoc($query)){
                     echo '<option data-value="'.$especie[idEspecie].'" value="'.$especie['nomeEspecie'].'"></option>';
                     }                    
-            ?>             
+            ?>        
+                 
             </select>
         </div>
     </div>  
