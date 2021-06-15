@@ -89,7 +89,7 @@
             
             //require ("conexao.php");
            	//$conexao = new mysqli("us-cdbr-east-03.cleardb.net", "b93ac2ca02a47f", "4428a355", "heroku_bd928228b7e37d8");
-            $query = "SELECT pet.idPet, pet.nomePet,cliente.nomeCliente,pet.raca, pet.idadePet, pet.especie FROM pet INNER JOIN cliente ON pet.idPet = cliente.idCliente";
+            $query = "SELECT pet.idPet, pet.nomePet,cliente.nomeCliente,pet.raca, pet.idadePet, pet.especie FROM pet INNER JOIN cliente ON pet.proprietario = cliente.idCliente";
             //$resulta = $conexao->query($query);
             $resulta = mysqli_query($conexao,$query) or die("Erro ao listar funcionários");
 			if ($resulta->num_rows > 0){
