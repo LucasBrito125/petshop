@@ -26,7 +26,7 @@ if(empty($Usuario) || empty($Senha)){
     resultado ele redirecionará para a página cadastroFuncionario.php ou retornara  para a página
     do formulário inicial para que se possa tentar novamente realizar o login */
 
-    if(mysql_num_rows($result) > 0 ){
+    if(mysqli_num_rows($result) > 0 ){
         $_SESSION['usuario'] = $Usuario;
         $_SESSION['senha'] = $Senha;
         header('location:home.php');
