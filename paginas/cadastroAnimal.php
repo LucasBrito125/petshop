@@ -93,10 +93,10 @@
             <?php
                 $query = mysqli_query($conexao, "SELECT idEspecie, nomeEspecie FROM especie order by nomeEspecie");
                     while($especie = mysqli_fetch_assoc($query)){
-                    echo '<option data-value="'.$especie[idEspecie].'" value="'.$especie['nomeEspecie'].'"></option>';
+                    echo '<option data-value="'.$especie['idEspecie'].'" value="'.$especie['nomeEspecie'].'"></option>';
                     }                    
             ?>        
-                 
+
             </select>
         </div>
     </div>  
