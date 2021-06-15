@@ -116,7 +116,7 @@
             <?php
                 $query = mysqli_query($conexao, "SELECT idRaca, nomeRaca FROM raca order by nomeRaca");
                     while($raca = mysqli_fetch_assoc($query)){
-                    echo '<option data-value="'.$raca[idRaca].'" value="'.$raca['nomeRaca'].'"></option>';
+                    echo '<option data-value="'.$raca['idRaca'].'" value="'.$raca['nomeRaca'].'"></option>';
                     }                    
             ?>             
             </select>
@@ -191,7 +191,7 @@
             <?php
                 $query = mysqli_query($conexao, "SELECT idCliente, nomeCliente FROM cliente order by nomeCliente");
                     while($raca = mysqli_fetch_assoc($query)){
-                    echo '<option data-value="'.$raca[idCliente].'" value="'.$raca['nomeCliente'].'"></option>';
+                    echo '<option data-value="'.$raca['idCliente'].'" value="'.$raca['nomeCliente'].'"></option>';
                     }                    
             ?>             
             </select>
