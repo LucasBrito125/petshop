@@ -128,7 +128,7 @@
             <div class="card-body">
                 <h5 class="card-title">CADASTRO ORDEM DE SERVIÇO</h5>
                 <p class="card-text"></p>
-                <a href="cadastrooOS.php" class="btn btn-warning btn-lg">ENVIAR</a>
+                <a href="cadastrooOs.php" class="btn btn-warning btn-lg">ENVIAR</a>
             </div>
         </div>
         

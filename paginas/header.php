@@ -28,7 +28,7 @@
                 <li><a class="dropdown-item" href="cadastroAnimal.php">Pet</a></li>
                 <li><a class="dropdown-item" href="cadastroFuncionario.php">Funcionario</a></li>
                 <li><a class="dropdown-item" href="cadastroServicos.php">Serviços</a></li>
-                <li><a class="dropdown-item" href="cadastrooOS.php">Ordem de Serviço</a></li>
+                <li><a class="dropdown-item" href="cadastrooOs.php">Ordem de Serviço</a></li>
             </ul>
           </li>
 
