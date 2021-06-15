@@ -1,0 +1,36 @@
+#telaLogin{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195,195,195);
+    opacity: 0.7;
+
+}
+
+#fundo{
+    background-color: rgb(243, 243, 243);
+    background-image: url("../img/fundo.jpg ");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fundo2{
+    /*background-color: rgb(243, 243, 243);*/
+    background-image: url("../img/logo7.png ");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#fundoHome{
+    /*background-color: rgb(243, 243, 243);*/
+    background-image: url("../img/fundoHome2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
