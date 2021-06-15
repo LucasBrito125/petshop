@@ -7,7 +7,7 @@
 
 
 	//CONECTANDO AO SERVIDOR
-	$conexao = mysql_connect($host, $login, $senha, $banco)
+	$conexao = mysqli_connect($host, $login, $senha, $banco)
 	// or die ("<script>
 	// 			 alert('[Erro] - Problemas no servidor do banco!');
 	// 		 </script>");
