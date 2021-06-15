@@ -87,7 +87,7 @@
 			<?php 
             
             require ("conexao.php");
-           	$conexao = new mysqli("us-cdbr-east-03.cleardb.net", "b93ac2ca02a47f", "4428a355", "heroku_bd928228b7e37d8");
+           	//$conexao = new mysqli("us-cdbr-east-03.cleardb.net", "b93ac2ca02a47f", "4428a355", "heroku_bd928228b7e37d8");
             $query = "SELECT * FROM cliente order by idCliente";
             $resulta = $conexao->query($query);
 			if ($resulta->num_rows > 0){
